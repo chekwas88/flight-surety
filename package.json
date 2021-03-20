@@ -5,7 +5,6 @@
   "directories": {
     "test": "test"
   },
-  "repository": "https://github.com/techbubble/flightsurety",
   "license": "MIT",
   "scripts": {
     "truffle:migrate": "truffle migrate --network development --reset",
