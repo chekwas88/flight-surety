@@ -2,10 +2,11 @@ body {
     background-image: url('flight.jpg'); /* Source: iStockPhoto */
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
 }
 
 .container {
-    margin-top: 400px;
+    margin-top: 100px;
     background-color: #000;
     opacity: 0.9;
     color: #fff;
@@ -19,6 +20,11 @@ body {
 h5 {
     color: #999999;
 }
+.action{
+    border-bottom: #999999 solid 1px;
+    margin-top: 2rem;
+    padding-bottom: 10px;
+}
 
 section {
     margin-bottom: 50px;
@@ -26,7 +32,7 @@ section {
 
 .field {
     font-weight: bold;
-    text-align: right;
+    /* text-align: right; */
 }
 
 .field-value {
@@ -39,4 +45,9 @@ label.form {
 }
 input {
     margin-right: 30px;
+}
+
+.results{
+    max-width: 400px;
+    display: block;
 }
